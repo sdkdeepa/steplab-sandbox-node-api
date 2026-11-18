@@ -14,7 +14,7 @@ const events = [
 // Helper: send a JavaScript value back as JSON.
 function sendJson(res, status, data) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' })
-  res.end(JSON.stringify(data, null, 2))
+  res.end(JSON.stringify(data, null, 2) + '\n')
 }
 
 // Helper: read the request body and turn it into a JavaScript object.

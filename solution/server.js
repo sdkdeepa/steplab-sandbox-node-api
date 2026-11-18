@@ -11,7 +11,7 @@ const events = [
 
 function sendJson(res, status, data) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' })
-  res.end(JSON.stringify(data, null, 2))
+  res.end(JSON.stringify(data, null, 2) + '\n')
 }
 
 async function readJson(req) {
