@@ -1,0 +1,24 @@
+// Sandbox for the StepLab lab "Build a tiny Node.js API".
+// GitHub Codespaces reads this file to build the attendee's environment.
+{
+  "name": "StepLab: Node.js API lab",
+
+  // Node.js 22 with npm, git and common tools already installed.
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+
+  // The lab server runs on port 3000. Codespaces gives it a private URL.
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Lab server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  // Open the file attendees edit as soon as the codespace starts.
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["server.js"]
+    }
+  }
+}

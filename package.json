@@ -1,0 +1,15 @@
+{
+  "name": "steplab-sandbox-node-api",
+  "version": "1.0.0",
+  "description": "Starter files for the StepLab lab: Build a tiny Node.js API",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --watch server.js",
+    "check": "node check.js",
+    "solution": "node solution/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
