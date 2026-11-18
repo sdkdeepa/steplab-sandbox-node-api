@@ -36,7 +36,7 @@ Duration: 3
 2. Sign in to GitHub if asked.
 3. Click **Create new codespace**.
 
-The first start takes a minute or two. When it's ready, you'll see an editor with `server.js` open and a terminal at the bottom.
+The first start takes a minute or two. When it's ready, you'll see a file list on the left and a terminal at the bottom. Click `server.js` in the file list to open it. That's the file you'll edit in this lab.
 
 In the terminal, check that Node.js is ready:
 
